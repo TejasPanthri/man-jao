@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>For Riddhima 💗</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--baby:#FFD6E7;--cotton:#FFB6D5;--bubble:#FF85B3;--lav:#E8D7FF;--cream:#FFF9FC;--deep:#C94F83;--card:#FFF9FC;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--card:#FFF9FC}}
+:root[data-theme="dark"]{--card:#FFF9FC}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;min-height:100%;}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{font-family:'Fredoka',system-ui,sans-serif;color:var(--deep);background:linear-gradient(160deg,var(--baby),var(--lav) 60%,var(--cotton));background-attachment:fixed;overflow-x:hidden;transition:background 1s}
+body.dream{background:linear-gradient(160deg,#ffc2dd,#e8d7ff 50%,#ffe1ef)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--baby);z-index:10}
+#bg,#fx{position:fixed;inset:0;pointer-events:none;overflow:hidden}
+#bg{z-index:0}#fx{z-index:50}
+.fl{position:absolute;bottom:-40px;animation:rise linear forwards;opacity:.8}
+@keyframes rise{to{transform:translateY(-110vh) rotate(25deg);opacity:0}}
+.cloud{position:absolute;font-size:60px;opacity:.7;animation:drift 30s linear infinite}
+@keyframes drift{from{transform:translateX(-20vw)}to{transform:translateX(120vw)}}
+main{position:relative;z-index:2;min-height:100vh;max-width:520px;margin:0 auto;padding:18px 16px 60px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.card{width:100%;background:var(--card);border:3px dashed var(--bubble);border-radius:32px;padding:26px 20px;box-shadow:0 8px 0 var(--cotton),0 14px 30px rgba(201,79,131,.25);position:relative;animation:pop .5s cubic-bezier(.3,1.5,.5,1)}
+@keyframes pop{from{transform:scale(.8) translateY(20px);opacity:0}}
+h1,h2{margin:.2em 0;font-weight:600}
+h1{font-size:2rem}h2{font-size:1.35rem;line-height:1.35}
+.hand{font-family:'Caveat',cursive;font-size:1.5rem;font-weight:700}
+.btn{font:inherit;font-weight:500;font-size:1.05rem;color:#fff;background:var(--bubble);border:0;border-radius:999px;padding:14px 26px;margin-top:14px;cursor:pointer;box-shadow:0 5px 0 var(--deep);transition:transform .1s}
+.btn:active{transform:translateY(4px);box-shadow:0 1px 0 var(--deep)}
+.btn.big{font-size:1.2rem;animation:wob 2s infinite}
+@keyframes wob{50%{transform:scale(1.06) rotate(-1.5deg)}}
+.opt{display:block;width:100%;font:inherit;font-size:1rem;color:var(--deep);background:var(--baby);border:2.5px solid var(--cotton);border-radius:20px;padding:13px 14px;margin:10px 0;cursor:pointer;transition:.15s}
+.opt:hover{background:var(--cotton);transform:scale(1.02)}
+.opt:disabled{opacity:.55;cursor:default;transform:none}
+.opt.picked{background:var(--bubble);color:#fff;border-color:var(--deep);opacity:1}
+.hearts{display:flex;gap:6px;justify-content:center;margin-bottom:10px;font-size:1.5rem}
+.hearts span{filter:grayscale(1);opacity:.35;transition:.4s}
+.hearts span.on{filter:none;opacity:1;transform:scale(1.15)}
+.mascot{font-size:5rem;line-height:1;margin:6px 0;display:inline-block}
+.sad{animation:sob 1.6s infinite}.happy{animation:jump .6s 3}.pout{animation:shake .5s 2}
+@keyframes sob{50%{transform:translateY(4px) scale(.97)}}
+@keyframes jump{50%{transform:translateY(-22px) rotate(6deg)}}
+@keyframes shake{25%{transform:translateX(-8px)}75%{transform:translateX(8px)}}
+.react{min-height:3.2em;font-family:'Caveat',cursive;font-size:1.5rem;font-weight:700;margin-top:6px}
+.sticker{position:absolute;font-size:.8rem;font-weight:600;background:var(--lav);border:2px solid var(--bubble);border-radius:14px;padding:3px 9px;transform:rotate(-8deg);top:-14px;left:-6px;box-shadow:0 3px 0 var(--cotton)}
+.sticker.r{left:auto;right:-6px;transform:rotate(7deg);background:var(--baby)}
+.meter{height:16px;background:var(--baby);border:2px solid var(--bubble);border-radius:99px;overflow:hidden;margin:6px 0 2px}
+.meter i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--cotton),var(--bubble));transition:width .6s}
+.small{font-size:.85rem;opacity:.9}
+.map{display:flex;justify-content:center;gap:4px;font-size:.9rem;margin-top:14px;opacity:.9}
+.hid{cursor:pointer;display:inline-block;font-size:1.6rem;margin-top:10px;animation:wob 3s infinite;background:none;border:0}
+.letter{background:#fffdf6 repeating-linear-gradient(transparent 0 31px,#ffd6e7 31px 32px);text-align:left;font-family:'Caveat',cursive;font-size:1.4rem;line-height:32px;white-space:pre-wrap;padding:20px 18px;border-radius:12px;border:2px solid var(--cotton);box-shadow:0 8px 20px rgba(201,79,131,.2);margin-top:16px}
+.bouq{width:min(300px,80%);animation:rev 1.4s cubic-bezier(.3,1.4,.5,1)}
+@keyframes rev{from{transform:translateY(120px) scale(.3);opacity:0}}
+.hide{display:none!important}
+.big-msg{font-size:1.5rem;font-weight:600;line-height:1.3}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01s!important}}
+</style>
+</head>
+<body>
+<div id="bg"></div><div id="fx"></div>
+<main id="app"></main>
+<script>
+const $=s=>document.querySelector(s), app=$('#app'), fx=$('#fx'), bg=$('#bg');
+const rnd=(a,b)=>a+Math.random()*(b-a);
+function float(list,n,size){for(let i=0;i<n;i++){const e=document.createElement('div');e.className='fl';e.textContent=list[i%list.length];e.style.cssText=`left:${rnd(0,100)}%;font-size:${rnd(size[0],size[1])}px;animation-duration:${rnd(4,8)}s;animation-delay:${rnd(0,1.5)}s`;fx.appendChild(e);setTimeout(()=>e.remove(),10000)}}
+const burst=(n=18)=>float(['💗','✨','🩷','🌸','🎀','💖'],n,[18,38]);
+function ambient(list,gap){setInterval(()=>{const e=document.createElement('div');e.className='fl';e.textContent=list[Math.floor(Math.random()*list.length)];e.style.cssText=`left:${rnd(0,100)}%;font-size:${rnd(14,30)}px;animation-duration:${rnd(9,16)}s`;bg.appendChild(e);setTimeout(()=>e.remove(),17000)},gap)}
+[['☁️',8,0],['☁️',32,-12],['☁️',62,-22]].forEach(([c,t,d])=>{const e=document.createElement('div');e.className='cloud';e.textContent=c;e.style.top=t+'%';e.style.animationDelay=d+'s';bg.appendChild(e)});
+ambient(['💗','✨','🌸','🦋'],1400);
+
+const Q=[
+ {q:'Do you think your boy woke up late on purpose just to annoy his princess? 🥺',o:[
+  ['Yesss, he’s a little troublemaker 😤','angry','Hehe guilty as charged… but I swear it wasn’t on purpose! 🙈'],
+  ['Nooo, my sleepy baby probably overslept 🥹','soft','You know me SO well 🥹💗 sleepy boy, reporting in!'],
+  ['I’m still angry with him 😾','angry','Okay okay… I deserve the pout 😿 I’ll earn my way back.']]},
+ {q:'How much are you missing your silly Tejas right now? 💗',o:[
+  ['A tiny little bit','soft','Tiny?? I’ll take it… and turn it into a big one 😤💗'],
+  ['A LOTTTT 😭','soft','Me too!! Come here, I’m missing you the same amount 🥹'],
+  ['Not telling youuu 🙈','soft','That blush says it all, princess 🙈💗']]},
+ {q:'Should your boy get a tiny punishment for missing college today? 🎀',o:[
+  ['100 kisses as punishment 😤','soft','That’s the best punishment ever, I accept!! 😘'],
+  ['One big cuddle session','soft','Cuddle sentence approved. Very strict judge 🧸'],
+  ['He better make it up to me!!','angry','Yes ma’am!! Making it up to you starts… now 🫡']]},
+ {q:'Does your Tejas deserve a little forgiveness? 🥺',o:[
+  ['Hmmmm, maybeee','soft','A maybe is a door, and I’m tiptoeing in 🚪💗'],
+  ['Only if he promises to be better','soft','Promise promise PROMISE 🤞 pinky and everything'],
+  ['I’m still deciding 😾','angry','Take all the time you need, princess. I’ll wait right here 🧸']]},
+ {q:'Do you know how much your silly boy loves you? 💗',o:[
+  ['More than anythinggg','soft','Correct!! 100 points, princess 💯💗'],
+  ['Not enough, prove it 😤','angry','Challenge accepted!! Scroll on, I’ve got proof coming 🎀'],
+  ['Tell me againnn 🥹','soft','I love you, I love you, I love you 🥹💗']]},
+ {q:'Can I make my princess smile again? 🎀',o:[
+  ['Try your best, silly','soft','Trying my absolute hardest 😁'],
+  ['You better!!','angry','Eep!! Yes, boss princess 🫡'],
+  ['Okay, one last chance 🩷','soft','I’ll make it count, I promise 🩷']]}
+];
+const LETTER=`Dear Riddhima,
+
+I’m sorry I woke up late today and couldn’t make it to college with you.
+
+I know it might have disappointed you, and I genuinely wish I could have been there.
+
+But there’s something I never want you to doubt, even on the days when your silly boy messes things up.
+
+You are so, so special to me.
+
+I love your smile, your little moods, your adorable reactions, and all the tiny things that make you YOU.
+
+And if I could choose one person to annoy, pamper, love, and make a thousand memories with, it would always be you.
+
+I’m sorry for today, my princess.
+
+I’ll try to be more responsible, and I’ll make it up to you with all the love you deserve.
+
+And just in case you haven’t heard it enough today…
+
+I LOVE YOU THE MOST, RIDDHIMAAAA!! 💗
+
+Forever your silly boy,
+
+Tejas 🎀`;
+
+let i=0, love=0;
+const view=h=>{app.innerHTML=h};
+const stickers=`<span class="sticker">For my princess</span><span class="sticker r">Tejas ♥ Riddhima</span>`;
+
+function intro(){
+ view(`<div class="card">${stickers}
+  <div class="hand">Hi Riddhimaaa!! 🎀</div>
+  <h1>Someone has a tiny little apology to make…</h1>
+  <div class="mascot sad">🥺</div>
+  <div class="small">🎒 (the apology is packed in the tiny pink backpack)</div>
+  <h2>Will you listen to your silly boy for a minute? 🥺</h2>
+  <button class="btn big" id="go">Okayyy, tell me 🩷</button></div>`);
+ $('#go').onclick=()=>{burst(12);ask()};
+}
+function ask(){
+ const d=Q[i];
+ const hearts=Q.map((_,k)=>`<span class="${k<i?'on':''}">💗</span>`).join('');
+ view(`<div class="card"><span class="sticker">Question ${i+1}</span>
+  <div class="hearts">${hearts}</div>
+  <h2>${d.q}</h2><div id="opts">${d.o.map((o,k)=>`<button class="opt" data-k="${k}">${o[0]}</button>`).join('')}</div>
+  <div class="mascot" id="m">🧸</div><div class="react" id="r"></div>
+  <div class="small">Love meter 💞</div><div class="meter"><i id="lm" style="width:${love}%"></i></div>
+  <button class="btn hide" id="nx">${i<Q.length-1?'Continue 💗':'One last thing… 🎀'}</button>
+  <div class="map">${Q.map((_,k)=>k<i?'🌸':k==i?'🎒':'·').join(' ')}</div></div>`);
+ document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{
+  const o=d.o[b.dataset.k];
+  document.querySelectorAll('.opt').forEach(x=>{x.disabled=true});b.classList.add('picked');
+  const m=$('#m'),angry=o[1]==='angry';
+  m.textContent=angry?'😿':'🧸';m.className='mascot '+(angry?'pout':'happy');
+  $('#r').textContent=o[2];
+  love=Math.min(100,love+(angry?8:17));$('#lm').style.width=love+'%';
+  float(angry?['💔','🥺']:['💗','✨','🩷'],angry?5:14,[18,34]);
+  $('#nx').classList.remove('hide');
+ });
+ $('#nx').onclick=()=>{i++;i<Q.length?ask():pre()};
+}
+function pre(){
+ document.body.classList.add('dream');
+ ambient(['🦋','💗','✨'],500);burst(20);
+ view(`<div class="card"><div class="mascot happy">🎀</div>
+  <h1 class="hand" style="font-size:2rem">Waittt, there’s one last thing for my princess… 🎀</h1>
+  <button class="btn big" id="op">Open your little surprise 💌</button></div>`);
+ $('#op').onclick=surprise;
+}
+const rose=(x,y,r,c)=>`<g transform="translate(${x} ${y})"><circle r="${r}" fill="${c}"/><circle r="${r*.7}" fill="#ff8fbd"/><path d="M0 ${-r*.5}C${r*.5} ${-r*.5} ${r*.5} ${r*.3} 0 ${r*.3}C${-r*.3} ${r*.3} ${-r*.3} ${-r*.1} 0 ${-r*.1}" fill="none" stroke="#C94F83" stroke-width="2.5" stroke-linecap="round"/><circle r="${r}" fill="none" stroke="#C94F83" stroke-width="2"/></g>`;
+function surprise(){
+ burst(30);
+ view(`<div class="card"><span class="sticker">Made with love</span>
+  <svg class="bouq" viewBox="0 0 240 260" role="img" aria-label="A bouquet of pink roses with a ribbon">
+   <g stroke="#5fae7a" stroke-width="5" stroke-linecap="round"><path d="M120 150L120 215"/><path d="M95 130L112 215"/><path d="M148 130L130 215"/></g>
+   <path d="M120 175c-40-10-55-40-60-45c35 0 55 20 60 45z" fill="#8fd3a5"/><path d="M122 180c40-10 55-40 60-45c-35 0-55 20-60 45z" fill="#8fd3a5"/>
+   ${rose(120,70,38,'#ffb6d5')}${rose(72,108,32,'#ff85b3')}${rose(168,108,32,'#ffb6d5')}${rose(100,128,26,'#ffd6e7')}${rose(142,128,26,'#ff85b3')}
+   <path d="M85 200L120 185L155 200L170 245L120 225L70 245Z" fill="#E8D7FF" stroke="#C94F83" stroke-width="2.5"/>
+   <path d="M120 185c-18-24-40-8-22 4c8 4 16 2 22-4zM120 185c18-24 40-8 22 4c-8 4-16 2-22-4z" fill="#FF85B3" stroke="#C94F83" stroke-width="2.5"/><circle cx="120" cy="188" r="7" fill="#FF85B3" stroke="#C94F83" stroke-width="2.5"/></svg>
+  <div class="letter" id="lt"></div>
+  <div class="hand hide" id="sg" style="font-size:1.8rem;margin-top:12px">— Your Tejas 💗</div>
+  <button class="hid" id="sec" aria-label="A secret heart">💖</button><div class="react" id="sr"></div>
+  <button class="btn big hide" id="hug">Give my boy a virtual hug 🧸</button></div>`);
+ $('#sec').onclick=()=>{$('#sr').textContent='Psst… you found the secret heart! Look at your phone later 😉 I’m already thinking about our next date 💗';burst(10)};
+ let n=0;const lt=$('#lt');
+ const t=setInterval(()=>{n+=2;lt.textContent=LETTER.slice(0,n);if(n>200)lt.scrollIntoView({block:'nearest'});
+  if(n>=LETTER.length){clearInterval(t);$('#sg').classList.remove('hide');$('#hug').classList.remove('hide');burst(12)}},40);
+ $('#lt').onclick=()=>{clearInterval(t);lt.textContent=LETTER;$('#sg').classList.remove('hide');$('#hug').classList.remove('hide')};
+ $('#hug').onclick=hug;
+}
+function hug(){
+ burst(60);setTimeout(()=>burst(40),700);
+ view(`<div class="card"><div class="mascot happy" style="font-size:7rem">🧸💗</div>
+  <div class="big-msg">YAYYYY!! YOUR BOY IS HUGGING YOU RIGHT NOW!! 💗</div>
+  <p class="hand">Tejas ♥ Riddhima</p>
+  <button class="btn" id="again">Play again 🎀</button></div>`);
+ $('#again').onclick=()=>{i=0;love=0;document.body.classList.remove('dream');intro()};
+}
+intro();
+</script>
+</body>
+</html>
